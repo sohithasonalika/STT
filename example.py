@@ -19,9 +19,22 @@ def greet(name):
     return f"Hello, {name}!"
 
 def calculate_sum(a, b):
+    """
+    Calculates the sum of two numbers.
+
+    Args:
+        a (int): The first number.
+        b (int): The second number.
+
+    Returns:
+        int: The sum of the two numbers.
+    """
     return a + b
 
 def print_message():
+    """
+    Prints a sample message to demonstrate Python functionality.
+    """
     print("This is a sample Python file to test pylint.")
 
 if __name__ == "__main__":
