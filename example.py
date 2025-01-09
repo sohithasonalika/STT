@@ -1,4 +1,19 @@
+"""
+This module demonstrates basic Python functions to test pylint compliance.
+"""
 def greet(name):
+    """
+    Returns a greeting message for the given name.
+
+    Args:
+        name (str): The name of the person to greet.
+
+    Raises:
+        ValueError: If the name is empty.
+
+    Returns:
+        str: A greeting message.
+    """
     if not name:
         raise ValueError("Name cannot be empty")
     return f"Hello, {name}!"
